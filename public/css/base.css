@@ -1,0 +1,17 @@
+:root{
+    font-weight: 800;
+    font-size: 1.3rem;
+    font-family: monospace;
+}
+body{
+    display: flex;    
+    flex-direction: column;
+    gap: 1rem;
+    margin: 4rem;
+}
+header,main,footer{
+    background: rgba(58, 246, 174, 0.3);
+    background: linear-gradient(90deg, rgba(58,246,175,0.3) 0%, rgba(113,113,255,0.3) 79%, rgba(183,0,255,0.3) 100%);
+    padding: 2rem;
+    color: rgb(39, 35, 35);
+}

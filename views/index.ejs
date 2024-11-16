@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Progress Viz</title>
-    <% if (error) { %>
+    
+    <% if (errorMsg) { %>
         <script src="/js/error.js" defer></script>
     <% } else { %>
         <script src="/js/d3.js" defer></script>
         <script src="/js/main.js" defer></script>
     <% } %>
+    <link rel="stylesheet" href="/css/base.css">
 </head>
 <body>
-    <p>My name is <%= name %></p>
+    <header>
+        <p>This is not a footewr</p>
+    </header>
+    <main>
+        <p>User is signed in </p>
+        <p>User name _> <%= username %></p>
+    </main>
+    <footer>
+        <p>This is footewr</p>
+        <a href="/logout">Logout</a>
+    </footer>
 </body>
 </html>

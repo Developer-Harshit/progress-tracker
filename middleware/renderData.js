@@ -3,7 +3,8 @@ module.exports = (req,res,next) => {
         status:200,
         errorMsg:false,
         isLogged:false,
-        username:false,
+        username:"",
+        password:""
     }
     next();
 }
